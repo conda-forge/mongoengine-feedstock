@@ -1,7 +1,7 @@
 {%set name = "mongoengine" %}
-{%set version = "0.13.0" %}
+{%set version = "0.14.3" %}
 {%set hash_type = "sha256" %}
-{%set hash_val = "2ae84677ce8bdd1a1b2884d637a4533e6a07a31a82243ef1a2faf22e354ec49d" %}
+{%set hash_val = "4608ffce39bc95f9874b094e9dfe0153245e18957ba8df8dddcbc7c6bc43a020" %}
 
 package:
   name: {{ name }}
