@@ -14,12 +14,15 @@ Summary: MongoEngine is a Python Object-Document Mapper for working with MongoDB
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/mongoengine-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/mongoengine-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/mongoengine-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/mongoengine-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mongoengine/badges/version.svg)](https://anaconda.org/conda-forge/mongoengine)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mongoengine/badges/downloads.svg)](https://anaconda.org/conda-forge/mongoengine)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-mongoengine-green.svg)](https://anaconda.org/conda-forge/mongoengine) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mongoengine.svg)](https://anaconda.org/conda-forge/mongoengine) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mongoengine.svg)](https://anaconda.org/conda-forge/mongoengine) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mongoengine.svg)](https://anaconda.org/conda-forge/mongoengine) |
 
 Installing mongoengine
 ======================
