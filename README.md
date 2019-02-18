@@ -114,4 +114,6 @@ Feedstock Maintainers
 =====================
 
 * [@pmlandwehr](https://github.com/pmlandwehr/)
+* [@dgasmith](https://github.com/dgasmith/)
+* [@lnaden](https://github.com/lnaden/)
 
