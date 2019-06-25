@@ -1,8 +1,8 @@
 {% set name = "mongoengine" %}
-{% set version = "0.18.0" %}
+{% set version = "0.18.2" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "d913994c2084a778cb73da691a8e5212ac2849859fcd599cafb3ae887cfe79d1" %}
+{% set hash = "fa3e73c966fca2b814cc1103ac4f55bcca7aae05028b112ef0cc8b321ee4a2f7" %}
 
 package:
   name: {{ name|lower }}
