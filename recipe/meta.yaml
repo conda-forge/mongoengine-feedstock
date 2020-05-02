@@ -1,8 +1,7 @@
 {% set name = "mongoengine" %}
-{% set version = "0.19.1" %}
+{% set version = "0.20.0" %}
 {% set bundle = "tar.gz" %}
-{% set hash_type = "sha256" %}
-{% set hash = "65f6cc48cbaac5ecd518dcec725d9c312286796510a9d93a4388a53811a294b9" %}
+{% set hash = "db9e5d587e5d74e52851e0e4a53fd744725bfa9918ae6070139f5ba9c62c6edf" %}
 
 package:
   name: {{ name|lower }}
@@ -11,11 +10,11 @@ package:
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
-  {{ hash_type }}: {{ hash }}
+  sha256: {{ hash }}
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   build:
@@ -38,7 +37,7 @@ about:
   license: MIT
   license_file: LICENSE
   license_family: MIT
-  summary: 'MongoEngine is a Python Object-Document Mapper for working with MongoDB.'
+  summary: MongoEngine is a Python Object-Document Mapper for working with MongoDB.
   doc_url: https://mongoengine-odm.readthedocs.io/
   dev_url: https://github.com/MongoEngine/mongoengine
 
