@@ -31,10 +31,6 @@ test:
     - mongoengine
     - mongoengine.base
     - mongoengine.queryset
-  requires:
-    - pip
-  commands:
-    - pip check
 
 about:
   home: http://mongoengine.org/
