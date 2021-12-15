@@ -1,7 +1,7 @@
 {% set name = "mongoengine" %}
-{% set version = "0.22.1" %}
+{% set version = "0.23.1" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "620d13db551c849402eb3c362878934f5260ec0028fff2a5d81bf53b21d91572" %}
+{% set hash = "de275e70cd58891dc46eef43369c522ce450dccb6d6f1979cbc9b93e6bdaf6cb" %}
 
 package:
   name: {{ name|lower }}
@@ -13,8 +13,8 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
