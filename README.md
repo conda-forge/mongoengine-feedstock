@@ -1,7 +1,7 @@
 About mongoengine
 =================
 
-Home: http://mongoengine.org/ 
+Home: http://mongoengine.org/
 
 Package license: MIT
 
