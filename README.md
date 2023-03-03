@@ -1,11 +1,11 @@
-About mongoengine
-=================
+About mongoengine-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mongoengine-feedstock/blob/main/LICENSE.txt)
 
 Home: http://mongoengine.org/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mongoengine-feedstock/blob/main/LICENSE.txt)
 
 Summary: MongoEngine is a Python Object-Document Mapper for working with MongoDB.
 
