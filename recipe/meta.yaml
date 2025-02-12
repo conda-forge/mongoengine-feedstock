@@ -22,6 +22,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - pymongo >=3.4,<5.0
+    - blinker
 
 test:
   requires:
